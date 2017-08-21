@@ -1,9 +1,0 @@
-﻿{
-	"modules": [
-		{
-			"type": "WpfApp.Template.Core.CoreModule, WpfApp.Template.Core",
-			"properties": {
-			}
-		}
-	]
-}

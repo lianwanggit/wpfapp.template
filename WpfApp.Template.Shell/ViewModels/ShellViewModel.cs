@@ -34,7 +34,7 @@ namespace WpfApp.Template.Shell.ViewModels
 			dynamic settings = new ExpandoObject();
 			settings.WindowStartupLocation = WindowStartupLocation.Manual;
 
-			_windowManager.ShowWindow(new ChildViewModel(), null, settings);
+			_windowManager.ShowWindow(new ChildWindowViewModel(), null, settings);
 		}
 	}
 }

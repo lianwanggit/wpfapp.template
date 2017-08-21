@@ -8,6 +8,9 @@
         mc:Ignorable="d"
         Title="ShellView" Height="600" Width="800">
 	<Grid>
-		<Button Name="OpenWindow" Content="Open Window" Margin="30" />
+		<StackPanel>
+			<ContentControl Name="Child"></ContentControl>
+			<Button Name="OpenWindow" Content="Open Window" Style="{StaticResource AccentedSquareButtonStyle}" />
+		</StackPanel>
 	</Grid>
 </controls:MetroWindow>
