@@ -1,6 +1,6 @@
 ﻿Feature: InMemoryDb
 	In order to avoid silly mistakes
-	As an EF idiot
+	As an EF and TDD idiot
 	I want to be told that In-memory DB works
 
 Background:

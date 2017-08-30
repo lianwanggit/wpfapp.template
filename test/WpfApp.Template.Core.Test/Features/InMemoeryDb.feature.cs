@@ -31,8 +31,8 @@ namespace WpfApp.Template.Core.Test.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "InMemoryDb", "\tIn order to avoid silly mistakes\r\n\tAs an EF idiot\r\n\tI want to be told that In-me" +
-                    "mory DB works", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "InMemoryDb", "\tIn order to avoid silly mistakes\r\n\tAs an EF and TDD idiot\r\n\tI want to be told th" +
+                    "at In-memory DB works", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
