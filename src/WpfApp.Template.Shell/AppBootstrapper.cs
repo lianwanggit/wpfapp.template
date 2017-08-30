@@ -12,7 +12,7 @@ namespace WpfApp.Template.Shell
 {
 	public class AppBootstrapper : CaliburnMetroAutofacBootstrapper<ShellViewModel>
 	{
-		private ILogger _logger;
+		// private ILogger _logger;
 
 		protected override void ConfigureContainer(ContainerBuilder builder)
 		{

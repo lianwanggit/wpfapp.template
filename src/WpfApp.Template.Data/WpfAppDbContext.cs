@@ -3,8 +3,8 @@ using WpfApp.Template.Domain;
 
 namespace WpfApp.Template.Data
 {
-	public class WpfAppDbContext : DbContext
+	public class WpfAppDbContext : DbContext, IWpfAppDbContext
 	{
-		public DbSet<Person> Persons { get; set; }
+		public IDbSet<Person> Persons { get; set; }
 	}
 }

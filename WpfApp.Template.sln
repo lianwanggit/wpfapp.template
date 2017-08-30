@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp.Template.Domain", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp.Template.Shell", "src\WpfApp.Template.Shell\WpfApp.Template.Shell.csproj", "{78D39C22-100D-43D4-9AFE-101BA7047E4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp.Template.Core.Test", "test\WpfApp.Template.Core.Test\WpfApp.Template.Core.Test.csproj", "{24C1AAAD-7298-42FF-9363-2AA1D2424613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp.Template.Test.Common", "test\WpfApp.Template.Test.Common\WpfApp.Template.Test.Common.csproj", "{B1BA3032-0A84-4EA3-ABA0-B72CB3FC09D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{78D39C22-100D-43D4-9AFE-101BA7047E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78D39C22-100D-43D4-9AFE-101BA7047E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78D39C22-100D-43D4-9AFE-101BA7047E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C1AAAD-7298-42FF-9363-2AA1D2424613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C1AAAD-7298-42FF-9363-2AA1D2424613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C1AAAD-7298-42FF-9363-2AA1D2424613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C1AAAD-7298-42FF-9363-2AA1D2424613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BA3032-0A84-4EA3-ABA0-B72CB3FC09D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BA3032-0A84-4EA3-ABA0-B72CB3FC09D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BA3032-0A84-4EA3-ABA0-B72CB3FC09D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BA3032-0A84-4EA3-ABA0-B72CB3FC09D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +58,7 @@ Global
 		{06841606-C2CB-465F-87E7-05078D223150} = {944968C9-3A0C-45EA-9F03-8219142F511C}
 		{9176BA4B-A9B4-4A4B-9E75-8ECBE41A8D95} = {944968C9-3A0C-45EA-9F03-8219142F511C}
 		{78D39C22-100D-43D4-9AFE-101BA7047E4E} = {944968C9-3A0C-45EA-9F03-8219142F511C}
+		{24C1AAAD-7298-42FF-9363-2AA1D2424613} = {D1C0459B-E923-4E1C-97B4-6B472BB06B63}
+		{B1BA3032-0A84-4EA3-ABA0-B72CB3FC09D0} = {D1C0459B-E923-4E1C-97B4-6B472BB06B63}
 	EndGlobalSection
 EndGlobal
