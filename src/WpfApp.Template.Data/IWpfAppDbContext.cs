@@ -6,5 +6,7 @@ namespace WpfApp.Template.Data
 	public interface IWpfAppDbContext
 	{
 		IDbSet<Person> Persons { get; set; }
+
+		void Migrate();
 	}
 }

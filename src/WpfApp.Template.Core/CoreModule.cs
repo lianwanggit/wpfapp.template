@@ -11,6 +11,7 @@ namespace WpfApp.Template.Core
 		{
 			builder.RegisterType<SimpleService>().As<ISimpleService>().SingleInstance();
 			builder.RegisterType<WpfAppDbContext>().As<IWpfAppDbContext>();
+			builder.RegisterType<HangfireDbContext>();
 		}
 	}
 }
